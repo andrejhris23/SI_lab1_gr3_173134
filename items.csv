@@ -1,6 +1,6 @@
-id ime cena
-1222 torta 750
-1412 pizza 320
-1234 smoki 30
-1023 morkov 12
-1234 pivo 100
+id,ime,cena
+132,pizza,320
+323,morkov,223
+322,kromid,21
+212,zelka,10
+122,kompir,67
