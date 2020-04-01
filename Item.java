@@ -8,13 +8,39 @@ class Item {
 	double price;
 	DDV ddv;
 
-	//TODO add variable.
+	public Item(int id, String name, double price, DDV ddv) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.ddv = ddv;
+	}
 
-	//TODO constructor
+	void setId(int id){
+		this.id = id;
+	}
 
-	//TODO setters and getters
+	void setName(String name){
+		this.name = name;
+	}
 
-	double taxReturn () {
-		//TODO
+	void setPrice(double price){
+		this.price = price;
+	}
+
+	int getId(int id){
+		return id;
+	}
+
+	String getName(String name) {
+		return name;
+	}
+
+	double getPrice(double price){
+		return price;
+	}
+
+
+	double taxReturn (double price) {
+		return price * 0.15;
 	}
 }
